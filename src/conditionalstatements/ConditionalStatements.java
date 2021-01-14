@@ -74,14 +74,14 @@ public class ConditionalStatements {
         Scanner scan =new Scanner(System.in);
         //Scanner scanner=new Scanner(System.in);
         System.out.println("Enter any number");
-        int num5=scan.nextInt();
-      if(num5%2==0){
-          System.out.println("Even");
-      }
-      else 
-      {
-          System.out.println("Odd");
-      }
+//        int num5=scan.nextInt();
+//      if(num5%2==0){
+//          System.out.println("Even");
+//      }
+//      else 
+//      {
+//          System.out.println("Odd");
+//      }
       
       String word="Hello";
       String word2="HI";
@@ -128,8 +128,6 @@ public class ConditionalStatements {
       {
           System.out.println("Invalid per");
       }
-
-      
       //nested if else
       
       /*if(condition){
@@ -157,7 +155,7 @@ public class ConditionalStatements {
           System.out.println("Invalid user");
       }
       
-      int number1 =5;
+      int number1 =15;
       int number2=10;
       
       if(number1>number2){
@@ -170,10 +168,55 @@ public class ConditionalStatements {
               System.out.println("Number is not greater than 50");
           }
       }
+      else{
         System.out.println("NUmber1 is less than number 2");
+      }
+        
+        System.out.println("ENter your age ");
+      int age=scan.nextInt();
+      scan.nextLine();
       
+      if(age >=20){
+          
+          System.out.println("Valid age");
+          System.out.println("Enter your exp");
+          int exp=scan.nextInt();
+          
+          if(exp >=2){
+              System.out.println("Selected");
+              
+               if(exp ==2){
+                  System.out.println("your salary is 2000");
+                }
+               else if(exp==3){
+                   System.out.println("your salary is 3000");
+               }
+               else
+               {
+                   System.out.println("10000");
+               }
+        
+          }
+          else if(exp==1){
+              System.out.println("you are not selected now");
+          }
+          
+          else{
+              System.out.println("Not selected");
+          }
+      }
+      else{
+          System.out.println("Invalid age");
+      }
+     String name1="Numrah";
+     
+      if(!(name1.equals("NUmrah"))){
+          
+      }
+      
+        
      
     }
-  
    
 }
+
